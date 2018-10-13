@@ -7,7 +7,7 @@
 - 在浏览器上安装 MetaMask 插件。
 - 通过 https://faucet.metamask.io 领取 Ropsten 测试网络的 Ether。
 - 所有的合约部署在 Ropsten 测试网络中。
-- 挑战赛涉及的源代码全部放在 https://github.com/sec-bit/dorahacks/contracts 
+- 挑战赛涉及的源代码全部放在 https://github.com/sec-bit/dorahacks
 
 ## 参加比赛流程
 
