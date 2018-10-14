@@ -22,7 +22,7 @@
 - 题目网站：
 	- Kovan: https://secbit.io/dorahacks/game1.html
 - 通关条件： 将 entrant 地址改成参赛者的地址。
-- 合约地址： https://kovan.etherscan.io/address/0x3ebe68e95c6254bea8dc3550accca72d76d261c4
+- 合约地址： *https://kovan.etherscan.io/address/0xfacd708f70f9798ac181e650e7ff30f9e2bad2ea*
 
 #### Game 2. AirDrop
 
@@ -30,6 +30,8 @@
 	- Kovan: https://secbit.io/dorahacks/game2.html
 - 通关条件：将 totalSupply 的 token 全部薅光。
 - 合约地址： https://kovan.etherscan.io/address/0x75ac31240f3b6d13c412c3fee869fd700b444d75
+- 提示：
+
 
 #### Game 3. HoneyPot
 
@@ -37,14 +39,21 @@
 	- Kovan: https://secbit.io/dorahacks/game3.html
 - 通关条件：将合约中的全部 ether 转走。
 - 合约地址：https://kovan.etherscan.io/address/0x470ed8a141a2255af7cd059d40d1cec81fcd3f4c
+- 提示：
 
+待破解的合约在创建后，bytecode 被替换了，你看到的合约并不是真正的合约。真正的合约是创建合约时，传入的 bytecode.
+真正的待破解合约的代码结构如下:
+```
+contract GameConact is GameContract{
+  	constructor () public payable {
 
+	}
+	function get(bytes4 a) public payable {
 
-
-
-
-
-
-
-
+	}
+	function isPass() view returns (bool)  {
+		return address(this).balance == 0;
+	}
+}
+```
 
