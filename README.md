@@ -18,27 +18,24 @@
 
 ## 题目说明
 
-#### 1.  GateKeeper
+#### Game 1.  GateKeeper
 
 - 题目网站：
-	- Ropsten: https://secbit.io/dorahacks/game1.html
-	- Kovan: https://secbit.io/dorahacks/game1_kovan.html
+	- Kovan: https://secbit.io/dorahacks/game1.html
 - 通关条件： 将 entrant 地址改成参赛者的地址。
 - 合约地址： https://kovan.etherscan.io/address/0x3ebe68e95c6254bea8dc3550accca72d76d261c4
 
-#### 2. AirDrop
+#### Game 2. AirDrop
 
 - 题目网站：
-	- Ropsten: https://secbit.io/dorahacks/game2.html
-	- Kovan: https://secbit.io/dorahacks/game2_kovan.html
+	- Kovan: https://secbit.io/dorahacks/game2.html
 - 通关条件：将 totalSupply的 token 全部薅光。
 - 合约地址： https://kovan.etherscan.io/address/0x75ac31240f3b6d13c412c3fee869fd700b444d75
 
-#### 3. HoneyPot
+#### Game 3. HoneyPot
 
 - 题目网站： 
-	- Ropsten: https://secbit.io/dorahacks/game3.html
-	- Kovan: https://secbit.io/dorahacks/game3_kovan.html
+	- Kovan: https://secbit.io/dorahacks/game3.html
 - 通关条件：将合约中的全部 ether 转走。
 - 合约地址：https://kovan.etherscan.io/address/0x470ed8a141a2255af7cd059d40d1cec81fcd3f4c
 
