@@ -36,7 +36,7 @@
 
 - 题目网站： 
 	- Ropsten: https://secbit.io/dorahacks/game3.html
-	- Kovan: https://secbit.io/dorahacks/game3.html
+	- Kovan: https://secbit.io/dorahacks/game3_kovan.html
 - 通关条件：将合约中的全部 ether 转走。
 
 
